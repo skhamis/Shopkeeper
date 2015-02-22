@@ -1,505 +1,168 @@
-﻿Log file open, 02/16/15 16:14:04
+﻿Log file open, 02/22/15 09:13:08
 LogInit:Display: Running engine for game: Shopkeeper
-LogInit: Version: 4.7.0-2440994+++depot+UE4-Releases+4.7
-LogInit: API Version: 2440994
-LogInit: Compiled (64-bit): Feb 10 2015 23:52:39
+LogInit: Version: 4.7.0-2448202+++depot+UE4-Releases+4.7
+LogInit: API Version: 2448202
+LogInit: Compiled (64-bit): Feb 16 2015 23:29:01
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.02.17-02.14.04:098][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.02.17-02.14.04:163][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.02.17-02.14.04:206][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.02.17-02.14.04:216][  0]LogInit: Object subsystem initialized
-[2015.02.17-02.14.04:218][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.02.17-02.14.04:218][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Sammy/Documents/Unreal Projects/Shopkeeper/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.02.17-02.14.04:218][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.02.17-02.14.04:218][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Sammy/Documents/Unreal Projects/Shopkeeper/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.02.17-02.14.04:219][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.02.17-02.14.04:219][  0]LogInit: Selected Device Profile: [Windows]
-[2015.02.17-02.14.04:219][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.02.17-02.14.04:229][  0]LogInit: Computer: SAMMYK
-[2015.02.17-02.14.04:229][  0]LogInit: User: Sammy
-[2015.02.17-02.14.04:229][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.02.17-02.14.04:229][  0]LogInit: High frequency timer resolution =2.338450 MHz
-[2015.02.17-02.14.04:229][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
-[2015.02.17-02.14.04:229][  0]LogMemory: Platform Memory Stats for Windows
-[2015.02.17-02.14.04:229][  0]LogMemory: Process Physical Memory: 45.62 MB used, 45.62 MB peak
-[2015.02.17-02.14.04:229][  0]LogMemory: Process Virtual Memory: 26.36 MB used, 26.37 MB peak
-[2015.02.17-02.14.04:229][  0]LogMemory: Physical Memory: 3896.45 MB used, 8057.77 MB total
-[2015.02.17-02.14.04:229][  0]LogMemory: Virtual Memory: 289.95 MB used, 134217728.00 MB total
-[2015.02.17-02.14.04:356][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2015.02.17-02.14.04:356][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
-[2015.02.17-02.14.04:371][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 660M (Feature Level 11_0)
-[2015.02.17-02.14.04:371][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.02.17-02.14.04:373][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.02.17-02.14.04:373][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.02.17-02.14.04:373][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.02.17-02.14.04:377][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.02.17-02.14.04:389][  0]LogD3D11RHI: Async texture creation enabled
-[2015.02.17-02.14.04:568][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.02.17-02.14.04:705][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.02.17-02.14.07:702][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.17-02.14.08:633][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.17-02.14.08:749][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.02.17-02.14.08:784][  0]LogDerivedDataCache: Loaded boot cache 0.03s 40MB C:/Users/Sammy/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.02.17-02.14.08:784][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sammy/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.02.17-02.14.08:784][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.02.17-02.14.08:784][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.02.17-02.14.08:907][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2015.02.17-02.14.08:920][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sammy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.02.17-02.14.09:342][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.02.17-02.14.09:342][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.02.17-02.14.09:919][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.02.17-02.14.10:116][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.02.17-02.14.11:644][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.02.17-02.14.12:136][  0]SourceControl: Info Source control is disabled
-[2015.02.17-02.14.12:136][  0]SourceControl: Info Source control is disabled
-[2015.02.17-02.14.12:136][  0]SourceControl: Info Source control is disabled
-[2015.02.17-02.14.12:136][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.14.12:136][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.14.12:157][  0]SourceControl: Info Source control is disabled
-[2015.02.17-02.14.12:665][  0]LogObj: 24223 objects as part of root set at end of initial load.
-[2015.02.17-02.14.12:665][  0]LogUObjectAllocator: 5135184 out of 0 bytes used by permanent object pool.
-[2015.02.17-02.14.12:798][  0]LogEngine: Initializing Engine...
-[2015.02.17-02.14.14:983][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.02.17-02.14.14:994][  0]LogInit: FAudioDevice initialized.
-[2015.02.17-02.14.15:074][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.02.17-02.14.15:095][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Sammy/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.02.17-02.14.15:097][  0]LogInit: Texture streaming: Enabled
-[2015.02.17-02.14.15:246][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.02.17-02.14.15:246][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.0-2440994+++depot+UE4-Releases+4.7
-[2015.02.17-02.14.15:246][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.0-2440994+++depot+UE4-Releases+4.7
-[2015.02.17-02.14.15:246][  0]LogAnalytics: SetUserId 53a242a54af00e47af6ac2995e4a18dc|884e67b8b1644c2aa35b0f276fef7fb8|28958f81-97f4-4f88-a2ad-35b1187e7cf0
-[2015.02.17-02.14.15:247][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.02.17-02.14.15:324][  0]LogInit: Transaction tracking system initialized
-[2015.02.17-02.14.15:809][  0]BlueprintLog: New page: Editor Load
-[2015.02.17-02.14.15:877][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
-[2015.02.17-02.14.15:878][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.02.17-02.14.16:865][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.17-02.14.17:411][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.17-02.14.18:047][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.02.17-02.14.18:048][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.02.17-02.14.18:055][  0]LogConsoleResponse:Display: 
-[2015.02.17-02.14.18:264][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.02.17-02.14.18:683][  0]SourceControl: Info Source control is disabled
-[2015.02.17-02.14.18:683][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.02.17-02.14.18:684][  0]LightingResults: New page: Lighting Build
-[2015.02.17-02.14.18:710][  0]MapCheck: New page: Map Check
-[2015.02.17-02.14.18:710][  0]LightingResults: New page: Lighting Build
-[2015.02.17-02.14.18:717][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CC5384E980
-[2015.02.17-02.14.22:940][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.02.17-02.14.22:940][  0]LogAIModule: Creating AISystem for world My2DMap
-[2015.02.17-02.14.22:940][  0]Cmd: MAP CHECKDEP
-[2015.02.17-02.14.22:941][  0]MapCheck: New page: My2DMap - Feb 16, 2015, 6:14:22 AM
-[2015.02.17-02.14.23:281][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 340.786ms to complete.
-[2015.02.17-02.14.23:281][  0]LogFileHelpers: Loading map 'My2DMap' took 4.598
-[2015.02.17-02.14.23:387][  0]LogCollectionManager: Loaded 0 collections in 0.002766 seconds
-[2015.02.17-02.14.23:401][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 1696 classes and 261 folders.
-[2015.02.17-02.14.23:543][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0067 seconds. Added 1 classes and 2 folders.
-[2015.02.17-02.14.23:636][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.02.17-02.14.23:638][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.02.17-02.14.23:645][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.02.17-02.14.23:672][  0]LogLoad: Full Startup: 22.08 seconds (BP compile: 2.08 seconds)
-[2015.02.17-02.14.24:203][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2015.02.17-02.14.24:347][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.02.17-02.14.24:507][  0]LogRenderer:Warning: Reallocating scene render targets to support 680x616 (Frame:3).
-[2015.02.17-02.14.26:694][  7]LogAssetRegistry: Asset discovery search completed in 10.8285 seconds
-[2015.02.17-02.16.45:809][789]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.02.17-02.16.45:809][789]PIE: New page: PIE session: My2DMap (Feb 16, 2015, 6:16:45 AM)
-[2015.02.17-02.16.45:813][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002953s)
-[2015.02.17-02.16.45:813][789]LogPlayLevel: PIE: World Init took: (0.000467s)
-[2015.02.17-02.16.45:813][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003592s)
-[2015.02.17-02.16.45:858][789]LogWorld: Game class is 'GameBlueprint_C'
-[2015.02.17-02.16.45:862][789]LogAIModule: Creating AISystem for world My2DMap
-[2015.02.17-02.16.45:885][789]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2015.02.16-16.16.45
-[2015.02.17-02.16.45:936][789]LogWorld: Bringing up level for play took: 0.073307
-[2015.02.17-02.16.45:946][789]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 0.767
-[2015.02.17-02.16.45:970][789]LogRenderer:Warning: Reallocating scene render targets to support 1296x728 (Frame:384).
-[2015.02.17-02.16.48:126][902]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CC625A1DA0
-[2015.02.17-02.17.10:820][378]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.02.17-02.17.19:232][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainCharacter" FILE="../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/Blueprints/MainCharacter.uasset" SILENT=true
-[2015.02.17-02.17.20:169][928]LogSavePackage: Save=840.104797ms
-[2015.02.17-02.17.20:169][928]LogSavePackage: Moving '../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/Saved/MainCharacter0E2D97F641A3A2F42207EA9FAAD0D934.tmp' to '../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/Blueprints/MainCharacter.uasset'
-[2015.02.17-02.17.49:769][258]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.17.49:770][258]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.17.55:934][952]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.18.05:373][836]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.05:374][836]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.05:866][879]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.05:867][879]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.05:900][882]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.05:901][882]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.05:931][885]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.05:932][885]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.05:959][887]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.05:960][887]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.05:997][891]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.05:998][891]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.06:026][894]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.06:027][894]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.06:063][898]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.06:065][898]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.06:096][901]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.06:097][901]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.06:126][904]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.06:126][904]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.09:450][221]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.09:450][221]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.18.09:490][221]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.18.09:491][221]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.21.55:207][120]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.21.55:208][120]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.21.56:157][230]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.21.56:158][230]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.21.56:158][230]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.21.56:159][230]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.21.56:286][245]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.22.06:017][145]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.22.06:026][145]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.22.07:676][290]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.22.07:683][290]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.22.07:683][290]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.22.07:690][290]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.22.31:960][454]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.22.31:961][454]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.22.32:580][527]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.22.32:581][527]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.22.32:581][527]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.22.32:582][527]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.22.32:664][537]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.22.53:144][686]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.22.53:145][686]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.22.53:145][686]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.22.53:145][686]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.23.00:109][893]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.23.00:109][893]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.23.00:644][955]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.23.00:645][955]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.23.00:645][955]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.23.00:646][955]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.23.00:716][963]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.23.03:357][212]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.23.03:366][212]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.23.04:494][294]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.23.04:501][294]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.23.04:501][294]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.23.04:510][294]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.23.08:883][506]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.23.08:890][506]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.23.08:890][506]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.23.08:897][506]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.24.02:822][132]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.24.02:830][132]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.24.02:830][132]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.24.02:837][132]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.24.02:885][138]SourceControl: Info Source control is disabled
-[2015.02.17-02.24.37:265][624]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.24.37:274][624]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.24.38:638][779]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.25.08:994][358]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.09:002][358]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.25.09:002][358]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.09:009][358]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.25.14:205][436]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.14:212][436]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.25.14:212][436]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.14:219][436]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.25.51:014][659]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.51:015][659]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.53:080][906]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.53:081][906]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.54:616][ 90]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.54:617][ 90]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.54:755][105]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.54:756][105]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.54:823][113]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.54:824][113]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.54:982][132]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.54:983][132]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.55:082][144]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.55:083][144]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.55:267][166]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.55:268][166]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.56:583][322]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.56:584][322]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.25.56:584][322]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.25.56:584][322]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.35.24:988][348]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.35.24:989][348]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.35.24:989][348]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.35.24:990][348]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.35.28:621][767]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.35.28:622][767]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.35.28:622][767]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.35.28:623][767]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.35.28:722][779]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.36.10:826][204]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.10:827][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.10:827][204]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.10:827][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.14:193][591]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.14:194][591]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.14:335][608]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.14:336][608]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.15:115][701]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.15:116][701]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.15:350][729]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.15:351][729]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.16:774][897]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.16:775][897]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.16:775][897]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.16:775][897]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.16:874][909]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.36.20:512][254]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.20:513][254]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.20:699][272]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.20:700][272]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.20:873][289]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.20:874][289]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:364][336]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:365][336]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:396][339]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:396][339]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:427][342]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:427][342]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:457][345]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:458][345]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:499][349]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:500][349]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:530][352]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:531][352]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:562][355]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:562][355]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:593][358]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:594][358]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:624][361]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:625][361]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:655][364]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:655][364]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:686][367]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:686][367]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:717][370]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:718][370]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:748][373]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:749][373]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:779][376]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:780][376]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:810][379]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:811][379]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:842][382]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:842][382]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:883][386]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:884][386]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.21:914][389]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.21:914][389]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.23:403][532]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.23:413][532]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.36.25:031][669]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.25:039][669]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.36.25:039][669]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.25:047][669]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.36.28:667][791]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.28:675][791]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.36.28:675][791]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.28:682][791]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
-[2015.02.17-02.36.45:809][920]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.45:810][920]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.46:319][981]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.46:320][981]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.46:320][981]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.02.17-02.36.46:320][981]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.02.17-02.36.46:394][990]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.36.47:339][ 67]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.36.47:508][ 85]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2015.02.17-02.36.55:691][758]SourceControl: Info Source control is disabled
-[2015.02.17-02.36.57:741][938]Cmd: QUIT_EDITOR
-[2015.02.17-02.36.57:985][938]LogExit: Preparing to exit.
-[2015.02.17-02.36.58:411][938]LogExit: Editor shut down
-[2015.02.17-02.36.58:411][938]LogExit: Transaction tracking system shut down
-[2015.02.17-02.36.58:415][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CC59F73740
-[2015.02.17-02.36.58:415][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CC57B1BBA0
-[2015.02.17-02.36.58:415][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CC608BB920
-[2015.02.17-02.36.58:416][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CC4685AC00
-[2015.02.17-02.36.58:438][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CC469902C0
-[2015.02.17-02.36.58:463][938]LogExit: Object subsystem successfully closed.
-[2015.02.17-02.36.58:570][938]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.02.17-02.36.58:570][938]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.02.17-02.36.58:570][938]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.02.17-02.36.58:570][938]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.02.17-02.36.58:570][938]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.02.17-02.36.58:570][938]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.02.17-02.36.58:570][938]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.02.17-02.36.58:570][938]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.02.17-02.36.58:571][938]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.02.17-02.36.59:328][938]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.02.17-02.36.59:329][938]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.02.17-02.36.59:458][938]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.02.17-02.36.59:458][938]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.02.17-02.36.59:458][938]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.02.17-02.36.59:459][938]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.02.17-02.36.59:561][938]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.02.17-02.36.59:562][938]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.02.17-02.36.59:563][938]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.02.17-02.36.59:563][938]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.02.17-02.36.59:564][938]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.02.17-02.36.59:664][938]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.02.17-02.36.59:673][938]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.02.17-02.36.59:715][938]LogDerivedDataCache: Shutdown
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.02.17-02.36.59:715][938]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.02.17-02.36.59:718][938]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.02.17-02.36.59:718][938]LogExit: Exiting.
-[2015.02.17-02.36.59:723][938]Log file closed, 02/16/15 16:36:59
+[2015.02.22-19.13.08:347][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.22-19.13.08:413][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.22-19.13.08:463][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.22-19.13.08:472][  0]LogInit: Object subsystem initialized
+[2015.02.22-19.13.08:474][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.22-19.13.08:474][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Sammy/Documents/Unreal Projects/Shopkeeper/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.22-19.13.08:474][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.22-19.13.08:474][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Sammy/Documents/Unreal Projects/Shopkeeper/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.22-19.13.08:475][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.22-19.13.08:475][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.22-19.13.08:475][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.22-19.13.08:485][  0]LogInit: Computer: SAMMYK
+[2015.02.22-19.13.08:485][  0]LogInit: User: Sammy
+[2015.02.22-19.13.08:485][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.22-19.13.08:485][  0]LogInit: High frequency timer resolution =2.338450 MHz
+[2015.02.22-19.13.08:485][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.02.22-19.13.08:485][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.22-19.13.08:485][  0]LogMemory: Process Physical Memory: 45.68 MB used, 45.68 MB peak
+[2015.02.22-19.13.08:485][  0]LogMemory: Process Virtual Memory: 24.43 MB used, 24.44 MB peak
+[2015.02.22-19.13.08:485][  0]LogMemory: Physical Memory: 2609.11 MB used, 8057.77 MB total
+[2015.02.22-19.13.08:485][  0]LogMemory: Virtual Memory: 288.07 MB used, 134217728.00 MB total
+[2015.02.22-19.13.08:612][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.02.22-19.13.08:612][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.02.22-19.13.08:627][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 660M (Feature Level 11_0)
+[2015.02.22-19.13.08:627][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.02.22-19.13.08:628][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.22-19.13.08:628][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.22-19.13.08:629][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.22-19.13.08:633][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.22-19.13.08:644][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.22-19.13.08:841][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.22-19.13.08:978][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.22-19.13.12:357][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-19.13.13:368][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-19.13.13:486][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.22-19.13.13:520][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Sammy/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.02.22-19.13.13:520][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sammy/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.02.22-19.13.13:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.22-19.13.13:521][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.22-19.13.13:644][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.02.22-19.13.13:657][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sammy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.22-19.13.13:752][  0]LogModuleManager:Warning: Found module file ../../../Engine/Plugins/Runtime/WebBrowserAsPlugin/Binaries/Win64/UE4Editor-WebBrowserAsPlugin.dll (API version 2440994), but it was incompatible with the current engine API version (2448202). This is likely a stale module that must be recompiled.
+[2015.02.22-19.13.14:057][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.22-19.13.14:057][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.22-19.13.14:623][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.22-19.13.14:811][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.22-19.13.16:327][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.22-19.13.16:788][  0]SourceControl: Info Source control is disabled
+[2015.02.22-19.13.16:788][  0]SourceControl: Info Source control is disabled
+[2015.02.22-19.13.16:788][  0]SourceControl: Info Source control is disabled
+[2015.02.22-19.13.16:808][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.02.22-19.13.17:222][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
+'
+[2015.02.22-19.13.17:699][  0]LogObj: 24230 objects as part of root set at end of initial load.
+[2015.02.22-19.13.17:699][  0]LogUObjectAllocator: 5136288 out of 0 bytes used by permanent object pool.
+[2015.02.22-19.13.17:829][  0]LogEngine: Initializing Engine...
+[2015.02.22-19.13.20:015][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.22-19.13.22:096][  0]LogInit: FAudioDevice initialized.
+[2015.02.22-19.13.22:182][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.22-19.13.22:204][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Sammy/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.02.22-19.13.22:206][  0]LogInit: Texture streaming: Enabled
+[2015.02.22-19.13.22:356][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.22-19.13.22:356][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.0-2448202+++depot+UE4-Releases+4.7
+[2015.02.22-19.13.22:356][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.0-2448202+++depot+UE4-Releases+4.7
+[2015.02.22-19.13.22:356][  0]LogAnalytics: SetUserId 53a242a54af00e47af6ac2995e4a18dc|884e67b8b1644c2aa35b0f276fef7fb8|28958f81-97f4-4f88-a2ad-35b1187e7cf0
+[2015.02.22-19.13.22:356][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.22-19.13.22:797][  0]LogInit: Transaction tracking system initialized
+[2015.02.22-19.13.23:229][  0]BlueprintLog: New page: Editor Load
+[2015.02.22-19.13.23:301][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.02.22-19.13.23:301][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.22-19.13.24:331][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-19.13.24:912][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.22-19.13.25:518][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.02.22-19.13.25:519][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.02.22-19.13.25:526][  0]LogConsoleResponse:Display: 
+[2015.02.22-19.13.25:728][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.02.22-19.13.26:094][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.02.22-19.13.26:148][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
+'
+[2015.02.22-19.13.26:149][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.02.22-19.13.26:150][  0]LightingResults: New page: Lighting Build
+[2015.02.22-19.13.26:174][  0]MapCheck: New page: Map Check
+[2015.02.22-19.13.26:174][  0]LightingResults: New page: Lighting Build
+[2015.02.22-19.13.26:181][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FF52C0680
+[2015.02.22-19.13.30:260][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.22-19.13.30:260][  0]LogAIModule: Creating AISystem for world My2DMap
+[2015.02.22-19.13.30:261][  0]Cmd: MAP CHECKDEP
+[2015.02.22-19.13.30:261][  0]MapCheck: New page: My2DMap - Feb 21, 2015, 11:13:30 PM
+[2015.02.22-19.13.30:605][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 343.689ms to complete.
+[2015.02.22-19.13.30:606][  0]LogFileHelpers: Loading map 'My2DMap' took 4.457
+[2015.02.22-19.13.30:767][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.02.22-19.13.30:767][  0]LogCollectionManager: Loaded 0 collections in 0.002852 seconds
+[2015.02.22-19.13.30:782][  0]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 1696 classes and 261 folders.
+[2015.02.22-19.13.30:858][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0086 seconds. Added 1 classes and 2 folders.
+[2015.02.22-19.13.30:950][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.22-19.13.30:952][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.02.22-19.13.30:967][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.22-19.13.30:994][  0]LogLoad: Full Startup: 25.12 seconds (BP compile: 2.00 seconds)
+[2015.02.22-19.13.31:509][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch sammy
+Your branch is up-to-date with 'origin/sammy'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Intermediate/CachedAssetRegistry.bin
+	modified:   Intermediate/Config/CoalescedSourceConfigs/EditorGameAgnostic.ini
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+	modified:   Saved/AutoScreenshot.png
+	modified:   Saved/Autosaves/PackageRestoreData.json
+	modified:   Saved/Config/Windows/Editor.ini
+	modified:   Saved/Config/Windows/EditorLayout.ini
+	modified:   Saved/Config/Windows/EditorLayout_Backup.ini
+	modified:   Saved/Config/Windows/EditorUserSettings.ini
+	modified:   Saved/Config/Windows/Engine.ini
+	modified:   Saved/Config/Windows/SourceControlSettings.ini
+	deleted:    Saved/Logs/MyPaper2DGame-backup-2015.02.11-18.32.16.log
+	deleted:    Saved/Logs/MyPaper2DGame-backup-2015.02.11-20.57.36.log
+	deleted:    Saved/Logs/MyPaper2DGame-backup-2015.02.12-17.17.02.log
+	deleted:    Saved/Logs/MyPaper2DGame-backup-2015.02.12-17.58.32.log
+	deleted:    Saved/Logs/MyPaper2DGame-backup-2015.02.13-16.18.29.log
+	deleted:    Saved/Logs/MyPaper2DGame-backup-2015.02.16-15.56.18.log
+	modified:   Saved/Logs/Shopkeeper.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+'
+[2015.02.22-19.13.31:509][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.02.22-19.13.31:509][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='sammy
+'
+[2015.02.22-19.13.31:509][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.22-19.13.31:578][  0]SourceControl: Info sammy
+[2015.02.22-19.13.31:651][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.02.22-19.13.31:815][  0]LogRenderer:Warning: Reallocating scene render targets to support 896x400 (Frame:3).
+[2015.02.22-19.13.33:666][  6]LogAssetRegistry: Asset discovery search completed in 10.3760 seconds
+[2015.02.22-19.13.34:657][ 10]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/Blueprints/GameBlueprint.uasset" "C:/Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/Blueprints/MainCharacter.uasset"'
+[2015.02.22-19.13.34:991][ 11]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.02.22-19.16.29:406][ 58]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/Blueprints/MainCharacter.uasset"'
+[2015.02.22-19.16.29:508][ 58]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.02.22-19.16.29:575][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainCharacter" FILE="../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/Blueprints/MainCharacter.uasset" SILENT=true
+[2015.02.22-19.16.30:515][ 58]LogSavePackage: Save=826.228027ms
+[2015.02.22-19.16.30:515][ 58]LogSavePackage: Moving '../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/Saved/MainCharacter8CEFDF6B4717BC87873B4DB1D837D3A8.tmp' to '../../../../../../Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/Blueprints/MainCharacter.uasset'
+[2015.02.22-19.16.30:575][ 59]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Sammy/Documents/Unreal Projects/Shopkeeper/Content/Blueprints/MainCharacter.uasset"'
+[2015.02.22-19.16.30:648][ 64]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Blueprints/MainCharacter.uasset
+'
+[2015.02.22-19.19.02:290][155]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.22-19.19.02:315][155]LogPlayLevel: [PIE] Compiling MainCharacter before PIE...
+[2015.02.22-19.19.02:812][155]LogPlayLevel: PIE:  Blueprint regeneration took 523 ms (1 blueprints)
+[2015.02.22-19.19.02:812][155]PIE: New page: PIE session: My2DMap (Feb 21, 2015, 11:19:02 PM)
+[2015.02.22-19.19.02:816][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002751s)
+[2015.02.22-19.19.02:816][155]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2015.02.22-19.19.02:816][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003398s)
+[2015.02.22-19.19.02:866][155]LogWorld: Game class is 'GameBlueprint_C'
+[2015.02.22-19.19.02:869][155]LogAIModule: Creating AISystem for world My2DMap
+[2015.02.22-19.19.02:891][155]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 60) at 2015.02.22-09.19.02
+[2015.02.22-19.19.02:941][155]LogWorld: Bringing up level for play took: 0.071684
+[2015.02.22-19.19.02:950][155]PIE: Info Play in editor start time for /Game/UEDPIE_0_My2DMap 1.642
+[2015.02.22-19.19.02:972][155]LogRenderer:Warning: Reall
